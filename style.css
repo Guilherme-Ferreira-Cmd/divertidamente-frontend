@@ -1,8 +1,12 @@
 .menu {
-	display: flex;
-	gap: 20px;
-	align-items: center;
-	width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+	background-image: url("imagem/colorido.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: center;
+	border-radius: 30px;
 }
 
 .menu ul {
@@ -14,10 +18,10 @@
 	flex-basis: 100%;
 	flex-grow: 1;
 	justify-content: space-between;
+	margin-bottom: 10px;
 }
 
 .menu li {
-	background-color: #30A6E6;
 	padding: 10px;
 	flex: 1;
 	text-align: center;
